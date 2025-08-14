@@ -1,0 +1,58 @@
+export default {
+  pl: {
+    app: { title: "Szkoła" },
+    nav: { students: "Uczniowie", classes: "Klasy" },
+    students: {
+      title: "Lista uczniów",
+      add: "Dodaj ucznia",
+      firstName: "Imię",
+      lastName: "Nazwisko",
+      class: "Klasa",
+      save: "Zapisz",
+      none: "brak",
+      delete: "Usuń ucznia",
+    },
+    classes: {
+      title: "Lista klas",
+      add: "Dodaj klasę",
+      name: "Nazwa klasy",
+      details: "Szczegóły klasy",
+      students: "Uczniowie tej klasy",
+      addStudent: "Przypisz ucznia",
+      unassign: "Usuń z klasy",
+      notfound: "Nie znaleziono klasy",
+    },
+    table: {
+      rowsPerPage: "Wyniki na stronę:",
+      range: "{start}–{end} z {total}",
+    },
+  },
+  en: {
+    app: { title: "School" },
+    nav: { students: "Students", classes: "Classes" },
+    students: {
+      title: "Students",
+      add: "Add student",
+      firstName: "First name",
+      lastName: "Last name",
+      class: "Class",
+      save: "Save",
+      none: "none",
+      delete: "Delete student",
+    },
+    classes: {
+      title: "Classes",
+      add: "Add class",
+      name: "Class name",
+      details: "Class details",
+      students: "Class students",
+      addStudent: "Assign student",
+      unassign: "Remove from class",
+      notfound: "Class not found",
+    },
+    table: {
+      rowsPerPage: "Records per page:",
+      range: "{start}–{end} of {total}",
+    },
+  },
+};
